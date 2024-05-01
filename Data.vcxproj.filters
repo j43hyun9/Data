@@ -19,11 +19,14 @@
     <Filter Include="헤더 파일\List">
       <UniqueIdentifier>{2d3ab59a-3fc2-4845-bcbf-99bd9a41075c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\LinkedList">
+      <UniqueIdentifier>{ab4d497e-6f8a-49f8-beb3-88e566aa2257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\LinkedList">
+      <UniqueIdentifier>{c850aa4f-0211-47c7-a62b-d0096e162ee6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="listS.c">
       <Filter>소스 파일\List</Filter>
     </ClCompile>
@@ -36,6 +39,12 @@
     <ClCompile Include="addPoly.c">
       <Filter>소스 파일\List</Filter>
     </ClCompile>
+    <ClCompile Include="InsertLinkedList.c">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="ex4_1.c">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="listS.h">
@@ -43,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="addPoly.h">
       <Filter>헤더 파일\List</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertLinkedList.h">
+      <Filter>헤더 파일\LinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
