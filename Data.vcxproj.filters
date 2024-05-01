@@ -31,6 +31,12 @@
     <Filter Include="소스 파일\CircularLinkedList">
       <UniqueIdentifier>{08293a07-7887-4563-807f-4417ad65906a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DoubleLinkedList">
+      <UniqueIdentifier>{f6a0a9f8-443f-4b5d-998e-f7ff572c1cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DoubleLinkedList">
+      <UniqueIdentifier>{0a3cb7e1-1c79-420a-9217-58d89ead76e7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="listS.c">
@@ -63,6 +69,12 @@
     <ClCompile Include="4_3.c">
       <Filter>소스 파일\CircularLinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="DoubleLinkedList.c">
+      <Filter>소스 파일\DoubleLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="ex4_4.c">
+      <Filter>소스 파일\DoubleLinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="listS.h">
@@ -79,6 +91,9 @@
     </ClInclude>
     <ClInclude Include="CircularLinkedList.h">
       <Filter>헤더 파일\CircularLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLinkedList.h">
+      <Filter>헤더 파일\DoubleLinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
