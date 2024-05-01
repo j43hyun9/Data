@@ -111,6 +111,15 @@
     <ClCompile Include="ex5_3.c">
       <Filter>소스 파일\Stack\linked</Filter>
     </ClCompile>
+    <ClCompile Include="evalPostfix.h">
+      <Filter>헤더 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="evalPostfix.c">
+      <Filter>소스 파일\Stack\linked</Filter>
+    </ClCompile>
+    <ClCompile Include="ex5_4.c">
+      <Filter>소스 파일\Stack\linked</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="listS.h">
