@@ -105,6 +105,12 @@
     <ClCompile Include="ex5_2.c">
       <Filter>소스 파일\Stack\linked</Filter>
     </ClCompile>
+    <ClCompile Include="testPair.c">
+      <Filter>소스 파일\Stack\linked</Filter>
+    </ClCompile>
+    <ClCompile Include="ex5_3.c">
+      <Filter>소스 파일\Stack\linked</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="listS.h">
@@ -132,6 +138,9 @@
       <Filter>헤더 파일\Stack</Filter>
     </ClInclude>
     <ClInclude Include="stackL.h">
+      <Filter>헤더 파일\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="testPair.h">
       <Filter>헤더 파일\Stack</Filter>
     </ClInclude>
   </ItemGroup>
