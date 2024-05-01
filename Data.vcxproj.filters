@@ -49,6 +49,18 @@
     <Filter Include="소스 파일\Stack\linked">
       <UniqueIdentifier>{3768eb28-740d-4cf1-871b-d587ef10ff41}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Queue">
+      <UniqueIdentifier>{4a27635a-53d4-4952-a3f3-fe4903e0b7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Queue">
+      <UniqueIdentifier>{8e89941a-0e9d-4d3a-a286-ca80e82abcca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Queue\arr">
+      <UniqueIdentifier>{06ffc90e-51cd-4835-a0cc-ca94ff4cfa7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Queue\arr">
+      <UniqueIdentifier>{1f7d301a-7861-4273-9bfa-d90a75649b97}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="listS.c">
@@ -120,6 +132,12 @@
     <ClCompile Include="ex5_4.c">
       <Filter>소스 파일\Stack\linked</Filter>
     </ClCompile>
+    <ClCompile Include="queueS.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex6_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="listS.h">
@@ -151,6 +169,9 @@
     </ClInclude>
     <ClInclude Include="testPair.h">
       <Filter>헤더 파일\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="queueS.h">
+      <Filter>헤더 파일\Queue\arr</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
