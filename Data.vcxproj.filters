@@ -37,6 +37,12 @@
     <Filter Include="헤더 파일\DoubleLinkedList">
       <UniqueIdentifier>{0a3cb7e1-1c79-420a-9217-58d89ead76e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{dab4c28f-9ae2-4320-a67c-e6410deb7737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Stack">
+      <UniqueIdentifier>{4fed4fce-f108-476e-9248-252ab28023eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="listS.c">
@@ -81,6 +87,12 @@
     <ClCompile Include="LinkedPoly.c">
       <Filter>소스 파일\LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="stackS.c">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="ex5_1.c">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="listS.h">
@@ -103,6 +115,9 @@
     </ClInclude>
     <ClInclude Include="LinkedPoly.h">
       <Filter>헤더 파일\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="stackS.h">
+      <Filter>헤더 파일\Stack</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
