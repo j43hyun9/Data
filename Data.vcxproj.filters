@@ -30,9 +30,18 @@
     <ClCompile Include="ex3_4.c">
       <Filter>소스 파일\List</Filter>
     </ClCompile>
+    <ClCompile Include="ex3_6.c">
+      <Filter>소스 파일\List</Filter>
+    </ClCompile>
+    <ClCompile Include="addPoly.c">
+      <Filter>소스 파일\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="listS.h">
+      <Filter>헤더 파일\List</Filter>
+    </ClInclude>
+    <ClInclude Include="addPoly.h">
       <Filter>헤더 파일\List</Filter>
     </ClInclude>
   </ItemGroup>
