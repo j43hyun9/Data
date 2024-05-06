@@ -1,5 +1,6 @@
 #include <string.h>
 #include "stackL.h"
+#include <stdlib.h>
 #include "evalPostfix.h"
 
 // 후위 표기법 수식을 계산하는 연산
@@ -23,13 +24,12 @@ element evalPostfix(char* exp) {
 			// 변수 opr1과 opr2에 대해 symbol에 저장된 연산자를 연산
 			switch (symbol) {
 			case '+': push(opr1 + opr2); break;
-			case '-' : push(opr1 + opr2); break;
-			case '*': push(opr1 + opr2); break;
-			case '/' : push(opr1 + opr2); break;
+			case '-' : push(opr1 - opr2); break;
+			case '*': push(opr1 * opr2); break;
+			case '/' : push(opr1 / opr2); break;
 			}
 		}
-
-		// 수식 exp에 대한 처리를 마친 후 스택에 남아 있는 결괏값을 pop하여 반환
-		return pop();
 	}
+	// 수식 exp에 대한 처리를 마친 후 스택에 남아 있는 결괏값을 pop하여 반환
+	return pop();
 }
