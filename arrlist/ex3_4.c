@@ -7,7 +7,7 @@ int main(void) {
 	printf("\n삽입 전 선형 리스트 :");
 	for (i = 0; i < size; i++) printf("%3d ", list[i]);
 	printf("\n원소의 갯수 : %d \n", size);
-	
+
 	move = insertElement(list, size, 30);
 
 	printf("\n삽입 후 선형 리스트 :");
