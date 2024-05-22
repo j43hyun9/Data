@@ -90,6 +90,18 @@
     <ClCompile Include="arrlist\ex3_4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Tree\BST\AVL\bst2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BST\AVL\avl.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BST\AVL\ex7_5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BST\AVL\node2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Linkedlist\InsertLinkedList.h">
@@ -108,6 +120,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Tree\BST\AVL\node2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\BST\AVL\bst2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\BST\AVL\avl.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
