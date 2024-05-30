@@ -102,6 +102,12 @@
     <ClCompile Include="arrlist\ex3_4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Tree\threadBT\threadBT.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\threadBT\ex7_3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Linkedlist\InsertLinkedList.h">
@@ -126,6 +132,9 @@
       <Filter>헤더 파일\Stack</Filter>
     </ClInclude>
     <ClInclude Include="arrlist\addPoly.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\threadBT\threadBT.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

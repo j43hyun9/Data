@@ -8,7 +8,7 @@ int main(void) {
 	treeNode* n5 = makeRootNode('B', NULL, NULL);
 	treeNode* n4 = makeRootNode('A', NULL, NULL);
 	treeNode* n3 = makeRootNode('/', n6, n7);
-	treeNode* n2 = makeRootNode('*', n4, n5);
+	treeNode* n2 = makeRootNode('*', n4, n5);j
 	treeNode* n1 = makeRootNode('-', n2, n3);
 
 	printf("\n preorder : ");

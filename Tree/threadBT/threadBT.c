@@ -14,14 +14,11 @@ treeThNode* makeRootThNode(char data, treeThNode* leftNode, treeThNode* rightNod
 
 // 후속자 노드를 반환하는 연산
 treeThNode* findThreadSuccessor(treeThNode* p) {
-	treeThNode* q = p->right;		// p를 통해 오른쪽 링크를 전달받는다.
-	if (q == NULL) return q;		// 만약 오른쪽 링크가 NULL이라면 q(NULL)을 반환한다.
-	// 예제에서 다룬 트리의 경우 오른쪽 링크가 NULL일 때는 오직 마지막이자 오른쪽 트리의 단말노드의 링크일때뿐이다.
-	if (p->isThreadRight == 1) return q;
-	// isThreadRight값이 1일 경우 처음에 세웠던 스레드 이진트리의 규칙에 의해서 링크는 스레드를 가리킨다.
-	// 따라서 q가 가지고 있는 값이 스레드의 링크이기 때문에 그대로 반환한다.
-	// 의문점 i) NULL일때 , 1일때, 0일떄,와 같이 "스레드의 링크일 때" 와 같은 자연어에 대응할 방법은 없는가?
-	while (q->left != NULL) q = q->left;
+	treeThNode* q = p->right;		// p가 후속자 노드를 가리킨다면, 후속자 노드의 주소값을 받아온다.
+									// XOR , p가 가리키는 right는 NULL이기에 NULL값을 받아온다.
+	if (q == NULL) return q;		// q가 NULL 이라면 NULL을 반환한다. if - return이 낄 경우 이후 코드들은 if문안의 내용이 false일떄를 의미한다.
+	if (p->isThreadRight == 1) return q;	// q가 주소값을 의미할때 p를 통해 후속자 노드를 확인하고(1) q를 반환한다.
+	while (q->left != NULL) q = q->left;    // 받아온 값의 left값이 널이 아니라면 q의 왼쪽의 노드로 이동한다.
 	return q;
 }
 
