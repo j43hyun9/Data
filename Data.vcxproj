@@ -142,6 +142,7 @@
     <ClCompile Include="CircularLinkedlist\CircularLinkedList.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="lab\nullcheck.c" />
     <ClCompile Include="Linkedlist\ex4_5.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -154,10 +155,6 @@
     <ClCompile Include="Linkedlist\LinkedPoly.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Tree\BST\AVL\avl.c" />
-    <ClCompile Include="Tree\BST\AVL\bst2.c" />
-    <ClCompile Include="Tree\BST\AVL\ex7_5.c" />
-    <ClCompile Include="Tree\BST\AVL\node2.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrlist\addPoly.h">
@@ -175,9 +172,6 @@
     <ClInclude Include="Linkedlist\LinkedPoly.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="Tree\BST\AVL\avl.h" />
-    <ClInclude Include="Tree\BST\AVL\bst2.h" />
-    <ClInclude Include="Tree\BST\AVL\node2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
