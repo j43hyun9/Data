@@ -90,16 +90,10 @@
     <ClCompile Include="arrlist\ex3_4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Tree\BST\AVL2\node2.c">
+    <ClCompile Include="Tree\heap\heap.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Tree\BST\AVL2\bst2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Tree\BST\AVL2\avl.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Tree\BST\AVL2\ex7_5.c">
+    <ClCompile Include="Tree\heap\ex7_6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -119,13 +113,7 @@
     <ClInclude Include="arrlist\addPoly.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Tree\BST\AVL2\node2.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Tree\BST\AVL2\bst2.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Tree\BST\AVL2\avl.h">
+    <ClInclude Include="Tree\heap\heap.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

@@ -27,14 +27,14 @@ int main(void) {
 
 	///////////////////////////////////////////////////////////////////////
 	root_BST = insertBSTNode(root_BST, 50);		// BST 만들기
-	//insertBSTNode(root_BST, 60);
-	//insertBSTNode(root_BST, 70);
-	//insertBSTNode(root_BST, 90);
-	//insertBSTNode(root_BST, 80);
-	//insertBSTNode(root_BST, 75);
-	//insertBSTNode(root_BST, 73);
-	//insertBSTNode(root_BST, 72);
-	//insertBSTNode(root_BST, 78);
+	insertBSTNode(root_BST, 60);
+	insertBSTNode(root_BST, 70);
+	insertBSTNode(root_BST, 90);
+	insertBSTNode(root_BST, 80);
+	insertBSTNode(root_BST, 75);
+	insertBSTNode(root_BST, 73);
+	insertBSTNode(root_BST, 72);
+	insertBSTNode(root_BST, 78);
 	printf("\n\n\n ******** BST 출력 ************* \n\n");
 	printf("%p %d ", root_BST, root_BST);
 	displayInorder(root_BST);
