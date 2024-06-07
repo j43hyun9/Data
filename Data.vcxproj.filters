@@ -90,10 +90,10 @@
     <ClCompile Include="arrlist\ex3_4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Tree\heap\heap.c">
+    <ClCompile Include="Graph\linked\ex8_2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Tree\heap\ex7_6.c">
+    <ClCompile Include="Graph\linked\adjList.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -113,7 +113,7 @@
     <ClInclude Include="arrlist\addPoly.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Tree\heap\heap.h">
+    <ClInclude Include="Graph\linked\adjList.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
