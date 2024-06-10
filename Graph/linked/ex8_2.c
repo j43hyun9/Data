@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "adjList.h"
 
 int main(void) {
@@ -10,8 +11,6 @@ int main(void) {
 	graphType* G4 = (graphType*)malloc(sizeof(graphType));
 
 	// G1 구성 : 정점 u에 대한 간선 (u, v)는 v가 큰 것부터 삽입
-	G1->n = 0;
-	printf("\n%p", G1);
 	createGraph(G1);
 	printf("5");
 	for (i = 0; i < 4; i++)

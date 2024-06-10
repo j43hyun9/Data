@@ -142,10 +142,6 @@
     <ClCompile Include="CircularLinkedlist\CircularLinkedList.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Graph\adjMatrix.c" />
-    <ClCompile Include="Graph\ex8_1.c" />
-    <ClCompile Include="Graph\linked\adjList.c" />
-    <ClCompile Include="Graph\linked\ex8_2.c" />
     <ClCompile Include="Linkedlist\ex4_5.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -166,8 +162,6 @@
     <ClInclude Include="CircularLinkedlist\CircularLinkedList.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="Graph\linked\adjList.h" />
-    <ClInclude Include="Graph\adjMatrix.h" />
     <ClInclude Include="Linkedlist\InsertLinkedList.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
