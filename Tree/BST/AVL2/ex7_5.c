@@ -26,7 +26,11 @@ int main(void) {
 	searchBST(root_AVL, 76);
 
 	///////////////////////////////////////////////////////////////////////
-	root_BST = insertBSTNode(root_BST, 50);		// BST 만들기
+	root_BST = insertBSTNode(root_BST, 32);		// BST 만들기
+	// 아니 여기 왜 상수값이 전달되냐
+	printf("\nsizeof(root_BST) : %d" ,sizeof(root_BST));
+	printf("\nroot_BST: %p", root_BST);
+	printf("\nroot_BST->key: %p", root_BST);
 	//insertBSTNode(root_BST, 60);
 	//insertBSTNode(root_BST, 70);
 	//insertBSTNode(root_BST, 90);
@@ -36,7 +40,6 @@ int main(void) {
 	//insertBSTNode(root_BST, 72);
 	//insertBSTNode(root_BST, 78);
 	printf("\n\n\n ******** BST 출력 ************* \n\n");
-	printf("%p %d ", root_BST, root_BST);
 	displayInorder(root_BST);
 	// 중위 순회 경로 출력
 	printf("\n\n BST에서 70 탐색 : ");

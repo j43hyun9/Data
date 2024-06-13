@@ -23,18 +23,18 @@ treeNode* searchBST(treeNode* root, element x) {
 
 // 포인터 p가 가리키는 노드와 비교하여 노드 x를 삽입하는 연산
 treeNode* insertBSTNode(treeNode* p, element x) {
+	printf("\nx : %d", x);
 	treeNode* newNode;
-	if (p == 0) {
+	if (p == NULL) {
 		newNode = (treeNode*)malloc(sizeof(treeNode));
 		newNode->key = x;
-		newNode->left = 0;
-		newNode->right = 0;
+		newNode->left = NULL;
+		newNode->right = NULL;
 		return newNode;
 	}
 	else if (x < p->key) p->left = insertBSTNode(p->left, x);
 	else if (x > p->key) p->right = insertBSTNode(p->right, x);
 	else printf("\n 이미 같은 키가 있습니다! \n");
-
 	return p;
 }
 
