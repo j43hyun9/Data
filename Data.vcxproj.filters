@@ -90,16 +90,12 @@
     <ClCompile Include="arrlist\ex3_4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Tree\BST\AVL2\node2.c">
+    <ClCompile Include="Graph\linked\ex8_2.c">
+    <ClCompile Include="Graph\adjMatrix.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Tree\BST\AVL2\bst2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Tree\BST\AVL2\avl.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Tree\BST\AVL2\ex7_5.c">
+    <ClCompile Include="Graph\linked\adjList.c">
+    <ClCompile Include="Graph\ex8_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -119,13 +115,8 @@
     <ClInclude Include="arrlist\addPoly.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Tree\BST\AVL2\node2.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Tree\BST\AVL2\bst2.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Tree\BST\AVL2\avl.h">
+    <ClInclude Include="Graph\linked\adjList.h">
+    <ClInclude Include="Graph\adjMatrix.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
