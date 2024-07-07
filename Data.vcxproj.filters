@@ -1,123 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="소스 파일\List">
-      <UniqueIdentifier>{b7447ae6-ce75-4bb5-ad71-5eb45595305f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\List">
-      <UniqueIdentifier>{2d3ab59a-3fc2-4845-bcbf-99bd9a41075c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\LinkedList">
-      <UniqueIdentifier>{ab4d497e-6f8a-49f8-beb3-88e566aa2257}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\LinkedList">
-      <UniqueIdentifier>{c850aa4f-0211-47c7-a62b-d0096e162ee6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\CircularLinkedList">
-      <UniqueIdentifier>{5864a259-7f7a-42cc-9796-2e4e0871a55b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\CircularLinkedList">
-      <UniqueIdentifier>{08293a07-7887-4563-807f-4417ad65906a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\DoubleLinkedList">
-      <UniqueIdentifier>{f6a0a9f8-443f-4b5d-998e-f7ff572c1cfe}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\DoubleLinkedList">
-      <UniqueIdentifier>{0a3cb7e1-1c79-420a-9217-58d89ead76e7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Stack">
-      <UniqueIdentifier>{dab4c28f-9ae2-4320-a67c-e6410deb7737}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\Stack">
-      <UniqueIdentifier>{4fed4fce-f108-476e-9248-252ab28023eb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Stack\arr">
-      <UniqueIdentifier>{e04254e1-9626-4cee-9e09-80ff637deb98}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Stack\linked">
-      <UniqueIdentifier>{3768eb28-740d-4cf1-871b-d587ef10ff41}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Queue">
-      <UniqueIdentifier>{4a27635a-53d4-4952-a3f3-fe4903e0b7d5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\Queue">
-      <UniqueIdentifier>{8e89941a-0e9d-4d3a-a286-ca80e82abcca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="헤더 파일\Queue\arr">
-      <UniqueIdentifier>{06ffc90e-51cd-4835-a0cc-ca94ff4cfa7f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Queue\arr">
-      <UniqueIdentifier>{1f7d301a-7861-4273-9bfa-d90a75649b97}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="CircularLinkedlist\4_3.c" />
+    <ClCompile Include="arrlist\addPoly.c" />
+    <ClCompile Include="arrlist\ex3_4.c" />
+    <ClCompile Include="arrlist\ex3_6.c" />
+    <ClCompile Include="CircularLinkedlist\CircularLinkedList.c" />
+    <ClCompile Include="Linkedlist\ex4_5.c" />
+    <ClCompile Include="Linkedlist\InsertLinkedList.c" />
+    <ClCompile Include="Linkedlist\LinkedList.c" />
+    <ClCompile Include="Linkedlist\LinkedPoly.c" />
+    <ClCompile Include="Recursion\Recursion1.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="arrlist\addPoly.c">
-      <Filter>소스 파일\List</Filter>
-    </ClCompile>
-    <ClCompile Include="Linkedlist\InsertLinkedList.c">
-      <Filter>소스 파일\LinkedList</Filter>
-    </ClCompile>
-    <ClCompile Include="Linkedlist\LinkedList.c">
-      <Filter>소스 파일\LinkedList</Filter>
-    </ClCompile>
-    <ClCompile Include="CircularLinkedlist\CircularLinkedList.c">
-      <Filter>소스 파일\CircularLinkedList</Filter>
-    </ClCompile>
-    <ClCompile Include="CircularLinkedlist\4_3.c">
-      <Filter>소스 파일\CircularLinkedList</Filter>
-    </ClCompile>
-    <ClCompile Include="Linkedlist\ex4_5.c">
-      <Filter>소스 파일\LinkedList</Filter>
-    </ClCompile>
-    <ClCompile Include="Linkedlist\LinkedPoly.c">
-      <Filter>소스 파일\LinkedList</Filter>
-    </ClCompile>
-    <ClCompile Include="arrlist\ex3_6.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="arrlist\ex3_4.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Graph\linked\ex8_2.c">
-    <ClCompile Include="Graph\adjMatrix.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Graph\linked\adjList.c">
-    <ClCompile Include="Graph\ex8_1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Linkedlist\InsertLinkedList.h">
-      <Filter>헤더 파일\LinkedList</Filter>
-    </ClInclude>
-    <ClInclude Include="Linkedlist\LinkedList.h">
-      <Filter>헤더 파일\LinkedList</Filter>
-    </ClInclude>
-    <ClInclude Include="CircularLinkedlist\CircularLinkedList.h">
-      <Filter>헤더 파일\CircularLinkedList</Filter>
-    </ClInclude>
-    <ClInclude Include="Linkedlist\LinkedPoly.h">
-      <Filter>헤더 파일\LinkedList</Filter>
-    </ClInclude>
-    <ClInclude Include="arrlist\addPoly.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Graph\linked\adjList.h">
-    <ClInclude Include="Graph\adjMatrix.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    <ClInclude Include="arrlist\addPoly.h" />
+    <ClInclude Include="CircularLinkedlist\CircularLinkedList.h" />
+    <ClInclude Include="Linkedlist\InsertLinkedList.h" />
+    <ClInclude Include="Linkedlist\LinkedList.h" />
+    <ClInclude Include="Linkedlist\LinkedPoly.h" />
   </ItemGroup>
 </Project>

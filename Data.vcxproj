@@ -154,6 +154,7 @@
     <ClCompile Include="Linkedlist\LinkedPoly.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Recursion\Recursion1.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrlist\addPoly.h">
