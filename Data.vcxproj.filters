@@ -10,7 +10,6 @@
     <ClCompile Include="Linkedlist\InsertLinkedList.c" />
     <ClCompile Include="Linkedlist\LinkedList.c" />
     <ClCompile Include="Linkedlist\LinkedPoly.c" />
-    <ClCompile Include="Recursion\Recursion1.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrlist\addPoly.h" />

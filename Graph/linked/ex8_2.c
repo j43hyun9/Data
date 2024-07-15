@@ -11,8 +11,7 @@ int main(void) {
 	graphType* G4 = (graphType*)malloc(sizeof(graphType));
 
 	// G1 구성 : 정점 u에 대한 간선 (u, v)는 v가 큰 것부터 삽입
-	createGraph(G1);
-	printf("5");
+	createGraph(G1);	// 그래프를 초기화한다. 최초 1회만 호출하면 됨.
 	for (i = 0; i < 4; i++)
 		insertVertex(G1, i);	// G1의 정점 0~3 삽입
 	insertEdge(G1, 0, 3);

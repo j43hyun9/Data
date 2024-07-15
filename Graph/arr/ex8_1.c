@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "adjMatrix.h"
-
 int main(void) {
 	int i;
 	graphType* G1 = (graphType*)malloc(sizeof(graphType));
@@ -10,11 +9,9 @@ int main(void) {
 	graphType* G4 = (graphType*)malloc(sizeof(graphType));
 
 	// G1 구성 : 정점 u에 대한 간선 (u, v)는 v가 큰 것부터 삽입
-	printf("\n%p", G1);
 	createGraph(G1);
-	printf("5");
 	for (i = 0; i < 4; i++)
-		insertVertex(G1, i);	// G1의 정점 0~3 삽입
+		insertVertex(G1, i);		// G1의 정점 0~3 삽입
 	insertEdge(G1, 0, 3);
 	insertEdge(G1, 0, 1);
 	insertEdge(G1, 1, 3);
@@ -29,7 +26,7 @@ int main(void) {
 	// G2 구성 : 정점 u에 대한 간선 (u, v)는 v가 큰 것부터 삽입
 	createGraph(G2);
 	for (i = 0; i < 3; i++)
-		insertVertex(G2, i);	// G2의 정점 0~2 삽입
+		insertVertex(G2, i);		// G2의 정점 0~2 삽입
 	insertEdge(G2, 0, 2);
 	insertEdge(G2, 0, 1);
 	insertEdge(G2, 1, 2);
@@ -37,7 +34,8 @@ int main(void) {
 	insertEdge(G2, 2, 1);
 	insertEdge(G2, 2, 0);
 
-	// G3 구성 : 정점 u에 대한 간선 <u, v>는 V가 큰 것부터 삽입
+
+	// G3 구성 : 정점 u에 대한 간선 (u,v)는 v가 큰 것부터 삽입
 	createGraph(G3);
 	for (i = 0; i < 4; i++)
 		insertVertex(G3, i);		// G3의 정점 0~3 삽입
@@ -47,7 +45,7 @@ int main(void) {
 	insertEdge(G3, 1, 2);
 	insertEdge(G3, 2, 3);
 
-	// G4 구성 : 정점 u에 대한 간선 <u, v>는 v가 큰 것부터 삽입
+	// G4 구성 : 정점 u에 대한 간선 <u,v>는 v가 큰 것부터 삽입
 	createGraph(G4);
 	for (i = 0; i < 3; i++)
 		insertVertex(G4, i);		// G4의 정점 0~2 삽입
@@ -60,13 +58,13 @@ int main(void) {
 	printf("\n G1의 인접 행렬");
 	print_adjMatrix(G1);
 
-	printf("\n G2의 인접 행렬");
+	printf("\n\n G2의 인접 행렬");
 	print_adjMatrix(G2);
 
-	printf("\n G3의 인접 행렬");
+	printf("\n\n G3의 인접 행렬");
 	print_adjMatrix(G3);
-
-	printf("\n G4의 인접 행렬");
+	
+	printf("\n\n G4의 인접 행렬");
 	print_adjMatrix(G4);
 
 	getchar(); return 0;
