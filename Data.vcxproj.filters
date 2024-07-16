@@ -10,6 +10,9 @@
     <ClCompile Include="Linkedlist\InsertLinkedList.c" />
     <ClCompile Include="Linkedlist\LinkedList.c" />
     <ClCompile Include="Linkedlist\LinkedPoly.c" />
+    <ClCompile Include="Graph\Traversal\DFS\ex8_3.c" />
+    <ClCompile Include="Graph\Traversal\DFS\stackL.c" />
+    <ClCompile Include="Graph\Traversal\DFS\adjList.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrlist\addPoly.h" />
@@ -17,5 +20,7 @@
     <ClInclude Include="Linkedlist\InsertLinkedList.h" />
     <ClInclude Include="Linkedlist\LinkedList.h" />
     <ClInclude Include="Linkedlist\LinkedPoly.h" />
+    <ClInclude Include="Graph\Traversal\DFS\stackL.h" />
+    <ClInclude Include="Graph\Traversal\DFS\adjList.h" />
   </ItemGroup>
 </Project>
