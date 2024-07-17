@@ -13,6 +13,7 @@
     <ClCompile Include="Graph\Traversal\DFS\ex8_3.c" />
     <ClCompile Include="Graph\Traversal\DFS\stackL.c" />
     <ClCompile Include="Graph\Traversal\DFS\adjList.c" />
+    <ClCompile Include="Graph\Traversal\DFS\dfs.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arrlist\addPoly.h" />
@@ -22,5 +23,6 @@
     <ClInclude Include="Linkedlist\LinkedPoly.h" />
     <ClInclude Include="Graph\Traversal\DFS\stackL.h" />
     <ClInclude Include="Graph\Traversal\DFS\adjList.h" />
+    <ClInclude Include="Graph\Traversal\DFS\dfs.h" />
   </ItemGroup>
 </Project>

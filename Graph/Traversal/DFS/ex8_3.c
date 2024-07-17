@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "stackL.h"
 #include "adjList.h"
+#include "dfs.h"
 #include <stdlib.h>
 
 int main(void) {
@@ -27,9 +28,11 @@ int main(void) {
 	insertEdge(g1, 1, 2);
 	insertEdge(g1, 1, 3); // A -> B -> C
 
+	insertEdge(g1, 2, 1);
 	insertEdge(g1, 2, 4); // B
 	insertEdge(g1, 2, 5);
 
+	insertEdge(g1, 3, 1);
 	insertEdge(g1, 3, 5); // C
 
 	insertEdge(g1, 4, 2);
@@ -45,6 +48,8 @@ int main(void) {
 	insertEdge(g1, 7, 5);   // E
 	insertEdge(g1, 7, 6);   // E
 	printGraph(g1);
+	deepFirstSearch(g1);
+
 	
 	getchar();
 	return 0;
